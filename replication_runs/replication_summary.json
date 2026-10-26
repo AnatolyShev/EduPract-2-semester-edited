@@ -1,0 +1,67 @@
+{
+  "completed_seeds": [
+    2026,
+    2027,
+    2028,
+    2029
+  ],
+  "completed_runs": 4,
+  "cases_total": 800,
+  "distinct_rule_documents": 800,
+  "overlap_count_across_seeds": 0,
+  "metrics_per_run": {
+    "baseline_decided_rate": {
+      "mean": 0.40125,
+      "sample_sd": 0.0325,
+      "min": 0.385,
+      "max": 0.45
+    },
+    "hybrid_decided_rate": {
+      "mean": 0.55375,
+      "sample_sd": 0.039024564913226964,
+      "min": 0.52,
+      "max": 0.61
+    },
+    "gain_pp": {
+      "mean": 15.25,
+      "sample_sd": 1.1902380714238083,
+      "min": 13.5,
+      "max": 16.0
+    },
+    "overhead_pct": {
+      "mean": 0.004609141106640848,
+      "sample_sd": 0.000238114361320426,
+      "min": 0.004252024623358301,
+      "max": 0.0047336268433081485
+    },
+    "extra_proofs_vs_coarse": {
+      "mean": 24.25,
+      "sample_sd": 3.774917217635375,
+      "min": 20,
+      "max": 29
+    },
+    "hybrid_proofs": {
+      "mean": 30.5,
+      "sample_sd": 2.3804761428476167,
+      "min": 27,
+      "max": 32
+    },
+    "baseline_wins": {
+      "mean": 80.25,
+      "sample_sd": 6.5,
+      "min": 77,
+      "max": 90
+    }
+  },
+  "pooled": {
+    "baseline_wins": 321,
+    "hybrid_proofs": 122,
+    "extra_proofs_vs_coarse": 97,
+    "gain_pp": 15.25
+  },
+  "original_seed_2026": "Observed results; not generated from other seeds",
+  "comparison": "Fixed agent traces: same rules/policies/simulation calls; static scoring adds measured wall time.",
+  "cpu_time_warning": "Existing 2026 CSV contains perf_counter wall time only; v2 additionally records process_time CPU.",
+  "precision_recall_warning": "Without independent ground truth: undecided is NOT a false result.",
+  "no_fake_replications": "If only one completed run exists, sample_sd is null; no claims about seed robustness."
+}

@@ -1,0 +1,30 @@
+{
+  "n": 200,
+  "seed": 2026,
+  "sampling": "official arcade-v0 content_space with predeclared exclusions",
+  "restriction_max_objects_per_color": null,
+  "baseline": {
+    "WITNESSED_SCORE_WIN": 90,
+    "INCONCLUSIVE": 110
+  },
+  "coarse": {
+    "WITNESSED_SCORE_WIN": 90,
+    "INCONCLUSIVE": 107,
+    "PROVEN_UNREACHABLE_SCORE_WIN": 3
+  },
+  "hybrid": {
+    "WITNESSED_SCORE_WIN": 90,
+    "INCONCLUSIVE": 78,
+    "PROVEN_UNREACHABLE_SCORE_WIN": 32
+  },
+  "extra_proofs_vs_coarse": 29,
+  "simulation_seconds_total": 114.130354,
+  "additional_static_seconds_total": 0.005404,
+  "official_quality_seconds_total": 0.031581,
+  "engine_source_sha256": "783f940700fa23b3e835c6e9195feca012abf428f540ee5c403ab6cf74e194d0",
+  "problem_source_sha256": "90166c0873d9135a846be6a7e8f99d60ff677e2ff01f7b75da84728f2cdec3d0",
+  "python": "3.12.8 (tags/v3.12.8:2dc476b, Dec  3 2024, 19:30:04) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "pcg_benchmark_version": "unknown; pin commit",
+  "warning": "No universal precision/recall: without an independent ground truth INCONCLUSIVE is not false."
+}

@@ -1,0 +1,38 @@
+{
+  "n": 200,
+  "seed": 2029,
+  "sampling": "official arcade-v0 content_space with predeclared exclusions",
+  "restriction_max_objects_per_color": null,
+  "baseline": {
+    "INCONCLUSIVE": 123,
+    "WITNESSED_SCORE_WIN": 77
+  },
+  "coarse": {
+    "INCONCLUSIVE": 116,
+    "WITNESSED_SCORE_WIN": 77,
+    "PROVEN_UNREACHABLE_SCORE_WIN": 7
+  },
+  "hybrid": {
+    "INCONCLUSIVE": 96,
+    "WITNESSED_SCORE_WIN": 77,
+    "PROVEN_UNREACHABLE_SCORE_WIN": 27
+  },
+  "extra_proofs_vs_coarse": 20,
+  "simulation_seconds_total": 113.667143,
+  "additional_static_seconds_total": 0.005375,
+  "official_quality_seconds_total": 0.03056,
+  "engine_source_sha256": "783f940700fa23b3e835c6e9195feca012abf428f540ee5c403ab6cf74e194d0",
+  "problem_source_sha256": "90166c0873d9135a846be6a7e8f99d60ff677e2ff01f7b75da84728f2cdec3d0",
+  "python": "3.12.8 (tags/v3.12.8:2dc476b, Dec  3 2024, 19:30:04) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "pcg_benchmark_version": "0.1.0",
+  "cpu_time_seconds_total": {
+    "engine": 105.328125,
+    "quality": 0.03125,
+    "static": 0.015625
+  },
+  "wall_time_seconds_baseline": 113.697703,
+  "wall_time_seconds_hybrid": 113.703078,
+  "timing_note": "Wall times from perf_counter; CPU times from process_time. Rounded per case to 6 decimals.",
+  "warning": "No universal precision/recall: without an independent ground truth INCONCLUSIVE is not false."
+}

@@ -1,0 +1,2351 @@
+[
+  {
+    "id": "arcade-0007",
+    "sha256": "4ef1c2180eca4f65d762ee19853ccdcdefd0c1a29a10a0bd9cb82bc27924d4f8",
+    "threshold": 5,
+    "u_naive": 120,
+    "u_resource": 3,
+    "counts": {
+      "player": 1,
+      "red": 0,
+      "green": 0,
+      "yellow": 2
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 2,
+        "reward": 1,
+        "action": 3,
+        "naive": 80,
+        "bound": 2
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 1,
+        "reward": 1,
+        "action": 2,
+        "naive": 40,
+        "bound": 1
+      }
+    ]
+  },
+  {
+    "id": "arcade-0010",
+    "sha256": "bb4f6dddf0042cfa13d4432cba386a3dca995fa447201e986e8d3aec35402783",
+    "threshold": 20,
+    "u_naive": 160,
+    "u_resource": 4,
+    "counts": {
+      "player": 1,
+      "red": 0,
+      "green": 1,
+      "yellow": 0
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 1,
+        "reward": 4,
+        "action": 1,
+        "naive": 160,
+        "bound": 4
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      }
+    ]
+  },
+  {
+    "id": "arcade-0016",
+    "sha256": "182a977213c889203e6be6e15bafbc7735fdd9eaa347fe537769aad52145359a",
+    "threshold": 10,
+    "u_naive": 200,
+    "u_resource": 5,
+    "counts": {
+      "player": 1,
+      "red": 2,
+      "green": 0,
+      "yellow": 0
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 2,
+        "reward": 2,
+        "action": 1,
+        "naive": 160,
+        "bound": 4
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 1,
+        "reward": 1,
+        "action": 2,
+        "naive": 40,
+        "bound": 1
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      }
+    ]
+  },
+  {
+    "id": "arcade-0029",
+    "sha256": "c3dcd8ea99c6cf5ae101d269deecfdd3a906899e1af292ebe6e372b59c0d284b",
+    "threshold": 20,
+    "u_naive": 0,
+    "u_resource": 0,
+    "counts": {
+      "player": 1,
+      "red": 0,
+      "green": 0,
+      "yellow": 0
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      }
+    ]
+  },
+  {
+    "id": "arcade-0032",
+    "sha256": "3139845ca9e5d628f51e27c60bbbd343ce3a456ca356e1021ec93892d5412d2d",
+    "threshold": 5,
+    "u_naive": 80,
+    "u_resource": 2,
+    "counts": {
+      "player": 1,
+      "red": 0,
+      "green": 2,
+      "yellow": 0
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 2,
+        "reward": 0,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 1,
+        "reward": 2,
+        "action": 1,
+        "naive": 80,
+        "bound": 2
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      }
+    ]
+  },
+  {
+    "id": "arcade-0038",
+    "sha256": "04535431078c8bcea9bb7b1692e5ad076dfa1f51a7f09e819bad377a97caf403",
+    "threshold": 20,
+    "u_naive": 0,
+    "u_resource": 0,
+    "counts": {
+      "player": 1,
+      "red": 2,
+      "green": 0,
+      "yellow": 0
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 2,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 1,
+        "reward": 0,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      }
+    ]
+  },
+  {
+    "id": "arcade-0057",
+    "sha256": "8dd6c99bf24eda4793f1b937143f0434a002b373883a9ea15f4743eaf3315938",
+    "threshold": 10,
+    "u_naive": 320,
+    "u_resource": 8,
+    "counts": {
+      "player": 1,
+      "red": 1,
+      "green": 4,
+      "yellow": 1
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 1,
+        "reward": 0,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 4,
+        "reward": 1,
+        "action": 3,
+        "naive": 160,
+        "bound": 4
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 1,
+        "reward": 0,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 4,
+        "reward": 0,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 1,
+        "reward": 4,
+        "action": 2,
+        "naive": 160,
+        "bound": 4
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 6,
+        "reward": 0,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 4,
+        "reward": 0,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      }
+    ]
+  },
+  {
+    "id": "arcade-0067",
+    "sha256": "dd32763efe0977f3283e5da6fa41f5596a2d30c49c923ebb2030baa48aad0b47",
+    "threshold": 20,
+    "u_naive": 120,
+    "u_resource": 3,
+    "counts": {
+      "player": 1,
+      "red": 1,
+      "green": 0,
+      "yellow": 1
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 1,
+        "reward": 2,
+        "action": 3,
+        "naive": 80,
+        "bound": 2
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 1,
+        "reward": 0,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 1,
+        "reward": 1,
+        "action": 2,
+        "naive": 40,
+        "bound": 1
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      }
+    ]
+  },
+  {
+    "id": "arcade-0072",
+    "sha256": "202c9e3ddede2c41421cd1daefe7000671540de1f57c3166437176a44e470a02",
+    "threshold": 20,
+    "u_naive": 0,
+    "u_resource": 0,
+    "counts": {
+      "player": 1,
+      "red": 2,
+      "green": 0,
+      "yellow": 0
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 2,
+        "reward": 0,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 1,
+        "reward": 0,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      }
+    ]
+  },
+  {
+    "id": "arcade-0090",
+    "sha256": "bad4da9ebdcc91dc075bfea1ef8ba37f92131b7ce5b23c9d069083a056a09aff",
+    "threshold": 10,
+    "u_naive": 160,
+    "u_resource": 4,
+    "counts": {
+      "player": 1,
+      "red": 0,
+      "green": 0,
+      "yellow": 2
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 2,
+        "reward": 1,
+        "action": 3,
+        "naive": 80,
+        "bound": 2
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 1,
+        "reward": 2,
+        "action": 1,
+        "naive": 80,
+        "bound": 2
+      }
+    ]
+  },
+  {
+    "id": "arcade-0095",
+    "sha256": "c0da3888936523f900d25b84e35f8b6a059bc44d5d2c8bad1be9e2608a49057b",
+    "threshold": 20,
+    "u_naive": 480,
+    "u_resource": 12,
+    "counts": {
+      "player": 1,
+      "red": 0,
+      "green": 0,
+      "yellow": 3
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 3,
+        "reward": 4,
+        "action": 1,
+        "naive": 480,
+        "bound": 12
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 3,
+        "reward": 0,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      }
+    ]
+  },
+  {
+    "id": "arcade-0096",
+    "sha256": "9df27b41c4053183e391f997e2cf981e77ab0c898c117543dd38c50bbf82f0cc",
+    "threshold": 10,
+    "u_naive": 360,
+    "u_resource": 9,
+    "counts": {
+      "player": 1,
+      "red": 1,
+      "green": 1,
+      "yellow": 1
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 1,
+        "reward": 4,
+        "action": 1,
+        "naive": 160,
+        "bound": 4
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 1,
+        "reward": 2,
+        "action": 3,
+        "naive": 80,
+        "bound": 2
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 1,
+        "reward": 0,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 1,
+        "reward": 1,
+        "action": 3,
+        "naive": 40,
+        "bound": 1
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 1,
+        "reward": 1,
+        "action": 3,
+        "naive": 40,
+        "bound": 1
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 1,
+        "reward": 1,
+        "action": 1,
+        "naive": 40,
+        "bound": 1
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      }
+    ]
+  },
+  {
+    "id": "arcade-0098",
+    "sha256": "ae411aec99ed391a9be249fe2738d52f12e6df47e0be0e401146fa4a1a44154e",
+    "threshold": 20,
+    "u_naive": 520,
+    "u_resource": 13,
+    "counts": {
+      "player": 1,
+      "red": 3,
+      "green": 1,
+      "yellow": 1
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 3,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 1,
+        "reward": 0,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 1,
+        "reward": 2,
+        "action": 2,
+        "naive": 80,
+        "bound": 2
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 3,
+        "reward": 0,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 3,
+        "reward": 1,
+        "action": 2,
+        "naive": 120,
+        "bound": 3
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 3,
+        "reward": 2,
+        "action": 2,
+        "naive": 240,
+        "bound": 6
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 1,
+        "reward": 2,
+        "action": 2,
+        "naive": 80,
+        "bound": 2
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      }
+    ]
+  },
+  {
+    "id": "arcade-0100",
+    "sha256": "78f9b825a4271586d9d735ad2a25ffe28f0923362e11c0692634205ba35911fc",
+    "threshold": 20,
+    "u_naive": 120,
+    "u_resource": 3,
+    "counts": {
+      "player": 1,
+      "red": 1,
+      "green": 3,
+      "yellow": 0
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 1,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 3,
+        "reward": 0,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 3,
+        "reward": 0,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 3,
+        "reward": 1,
+        "action": 3,
+        "naive": 120,
+        "bound": 3
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      }
+    ]
+  },
+  {
+    "id": "arcade-0101",
+    "sha256": "4c44411845e9133be9a63db6bcfa27f1e79a21979faf09d839d137101ae17d64",
+    "threshold": 5,
+    "u_naive": 0,
+    "u_resource": 0,
+    "counts": {
+      "player": 1,
+      "red": 0,
+      "green": 0,
+      "yellow": 0
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      }
+    ]
+  },
+  {
+    "id": "arcade-0105",
+    "sha256": "8b1fc5513fac5be226986928ca8dcd0790690b2e16f52b6712037572927fcedb",
+    "threshold": 10,
+    "u_naive": 120,
+    "u_resource": 3,
+    "counts": {
+      "player": 1,
+      "red": 3,
+      "green": 4,
+      "yellow": 0
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 3,
+        "reward": 1,
+        "action": 1,
+        "naive": 120,
+        "bound": 3
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 4,
+        "reward": 0,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 3,
+        "reward": 0,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 12,
+        "reward": 0,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 6,
+        "reward": 0,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      }
+    ]
+  },
+  {
+    "id": "arcade-0118",
+    "sha256": "5be632b854feb408c1493c78459c5d957949dc1b6b682f998094eaabf8447c6c",
+    "threshold": 20,
+    "u_naive": 600,
+    "u_resource": 15,
+    "counts": {
+      "player": 1,
+      "red": 2,
+      "green": 0,
+      "yellow": 2
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 2,
+        "reward": 4,
+        "action": 3,
+        "naive": 320,
+        "bound": 8
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 2,
+        "reward": 2,
+        "action": 2,
+        "naive": 160,
+        "bound": 4
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 1,
+        "reward": 2,
+        "action": 2,
+        "naive": 80,
+        "bound": 2
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 4,
+        "reward": 0,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 1,
+        "reward": 1,
+        "action": 1,
+        "naive": 40,
+        "bound": 1
+      }
+    ]
+  },
+  {
+    "id": "arcade-0123",
+    "sha256": "ab6c9546759032c75aa00775e21445d8f8cb6b322e5553bb078034fdc0e04f5b",
+    "threshold": 10,
+    "u_naive": 360,
+    "u_resource": 9,
+    "counts": {
+      "player": 1,
+      "red": 0,
+      "green": 1,
+      "yellow": 2
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 1,
+        "reward": 4,
+        "action": 1,
+        "naive": 160,
+        "bound": 4
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 2,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 2,
+        "reward": 2,
+        "action": 1,
+        "naive": 160,
+        "bound": 4
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 1,
+        "reward": 1,
+        "action": 1,
+        "naive": 40,
+        "bound": 1
+      }
+    ]
+  },
+  {
+    "id": "arcade-0124",
+    "sha256": "6dabd3af594098da2a6533f2650f05da2330b52a986048175394975e53bef577",
+    "threshold": 5,
+    "u_naive": 40,
+    "u_resource": 1,
+    "counts": {
+      "player": 1,
+      "red": 0,
+      "green": 2,
+      "yellow": 0
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 2,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 1,
+        "reward": 1,
+        "action": 3,
+        "naive": 40,
+        "bound": 1
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      }
+    ]
+  },
+  {
+    "id": "arcade-0142",
+    "sha256": "3cfcff42a85c5f59ea451ce8a8cd2aa5824e3f6160c58c33e71d346c982c5365",
+    "threshold": 20,
+    "u_naive": 320,
+    "u_resource": 8,
+    "counts": {
+      "player": 1,
+      "red": 0,
+      "green": 2,
+      "yellow": 0
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 2,
+        "reward": 2,
+        "action": 3,
+        "naive": 160,
+        "bound": 4
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 1,
+        "reward": 4,
+        "action": 3,
+        "naive": 160,
+        "bound": 4
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      }
+    ]
+  },
+  {
+    "id": "arcade-0144",
+    "sha256": "3fed812f253fb31a4785a1591ae69acef5e5d36ccc49eefc64e680f3843943a5",
+    "threshold": 10,
+    "u_naive": 0,
+    "u_resource": 0,
+    "counts": {
+      "player": 1,
+      "red": 0,
+      "green": 0,
+      "yellow": 0
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      }
+    ]
+  },
+  {
+    "id": "arcade-0160",
+    "sha256": "91853a4b7bf0b0f2fd25bcebd80bd54f29366d455f6db59f24a443be999e92af",
+    "threshold": 20,
+    "u_naive": 80,
+    "u_resource": 2,
+    "counts": {
+      "player": 1,
+      "red": 1,
+      "green": 0,
+      "yellow": 0
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 1,
+        "reward": 2,
+        "action": 1,
+        "naive": 80,
+        "bound": 2
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      }
+    ]
+  },
+  {
+    "id": "arcade-0162",
+    "sha256": "a692bf75e0aabc2638e5c39710a6492f853968952210b18a32d9d4453878211d",
+    "threshold": 5,
+    "u_naive": 0,
+    "u_resource": 0,
+    "counts": {
+      "player": 1,
+      "red": 0,
+      "green": 0,
+      "yellow": 3
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 3,
+        "reward": 0,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 3,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      }
+    ]
+  },
+  {
+    "id": "arcade-0176",
+    "sha256": "997725284bbd99a043552c3553e8146c346cfee6754ee9b064c00b8962edb61e",
+    "threshold": 5,
+    "u_naive": 0,
+    "u_resource": 0,
+    "counts": {
+      "player": 1,
+      "red": 0,
+      "green": 0,
+      "yellow": 2
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 2,
+        "reward": 0,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 1,
+        "reward": 0,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      }
+    ]
+  },
+  {
+    "id": "arcade-0192",
+    "sha256": "0353cca3b54877be8e74b97b28cfb2cb7a3be76104b1e4babedc0e34f6114858",
+    "threshold": 20,
+    "u_naive": 360,
+    "u_resource": 9,
+    "counts": {
+      "player": 1,
+      "red": 2,
+      "green": 0,
+      "yellow": 1
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 2,
+        "reward": 1,
+        "action": 3,
+        "naive": 80,
+        "bound": 2
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 1,
+        "reward": 4,
+        "action": 2,
+        "naive": 160,
+        "bound": 4
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 1,
+        "reward": 1,
+        "action": 1,
+        "naive": 40,
+        "bound": 1
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 2,
+        "reward": 1,
+        "action": 1,
+        "naive": 80,
+        "bound": 2
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      }
+    ]
+  },
+  {
+    "id": "arcade-0196",
+    "sha256": "455ccc35b619d6998bc73cb805f71a43bbe334b6e9fa60870a38848546bd38ee",
+    "threshold": 20,
+    "u_naive": 640,
+    "u_resource": 16,
+    "counts": {
+      "player": 1,
+      "red": 1,
+      "green": 2,
+      "yellow": 0
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 1,
+        "reward": 4,
+        "action": 3,
+        "naive": 160,
+        "bound": 4
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 2,
+        "reward": 4,
+        "action": 3,
+        "naive": 320,
+        "bound": 8
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 2,
+        "reward": 2,
+        "action": 2,
+        "naive": 160,
+        "bound": 4
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 1,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 3,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      }
+    ]
+  },
+  {
+    "id": "arcade-0199",
+    "sha256": "cd0b42afb0955f8ddacfbac82bb255cedace03e9047bf79e3dd3fd0b243edb93",
+    "threshold": 20,
+    "u_naive": 720,
+    "u_resource": 18,
+    "counts": {
+      "player": 1,
+      "red": 3,
+      "green": 0,
+      "yellow": 0
+    },
+    "pair_wise_certificate": [
+      {
+        "pair": "player-red",
+        "n_pairs": 3,
+        "reward": 4,
+        "action": 1,
+        "naive": 480,
+        "bound": 12
+      },
+      {
+        "pair": "player-green",
+        "n_pairs": 0,
+        "reward": 0,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "player-yellow",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-red",
+        "n_pairs": 3,
+        "reward": 2,
+        "action": 3,
+        "naive": 240,
+        "bound": 6
+      },
+      {
+        "pair": "red-green",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "red-yellow",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-green",
+        "n_pairs": 0,
+        "reward": 4,
+        "action": 0,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "green-yellow",
+        "n_pairs": 0,
+        "reward": 2,
+        "action": 2,
+        "naive": 0,
+        "bound": 0
+      },
+      {
+        "pair": "yellow-yellow",
+        "n_pairs": 0,
+        "reward": 1,
+        "action": 1,
+        "naive": 0,
+        "bound": 0
+      }
+    ]
+  }
+]
